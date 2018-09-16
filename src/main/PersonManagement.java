@@ -106,7 +106,7 @@ public class PersonManagement {
 	/** Reads person data from file and stores it in an array */
 	public static Person[] readPersonData() throws FileNotFoundException {
 		// Using Scanner to read the file
-		Scanner scan = new Scanner(new File("/Users/emmettgreenberg/Met_CS_526/assignment1/person_info.txt"));
+		Scanner scan = new Scanner(new File("/Users/emmettgreenberg/Emmett-eclipse-workspace/homework-1/person_info.txt"));
 		// read in first line, save as array size
 		int numPersons = scan.nextInt();
 		// array of Persons to store data
